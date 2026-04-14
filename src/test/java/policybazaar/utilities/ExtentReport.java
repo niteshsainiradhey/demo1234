@@ -26,7 +26,7 @@ public class ExtentReport extends BaseClass implements ITestListener
 		 ReadConfiguration r1=new ReadConfiguration();
 	  createReport=new ExtentSparkReporter("MyProjectReport.html"); 
 	  createTest=new ExtentReports(); 
-	  createTest.attachReporter(createReport); 
+	  createTest.attachReporter(createReport); //hello
 	   
 	  createTest.setSystemInfo("OperatingSystem", "Windown"); 
 	  createTest.setSystemInfo("Browesr", r1.getBrowser()); 
